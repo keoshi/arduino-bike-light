@@ -41,6 +41,12 @@ The housing is two parts, a base that holds the NeoPixel stick and a snap-on cov
 
 The base is shaped to slide onto the Elops rear light support that comes with the Decathlon light set, so you can swap the stock light for this one without touching the bike.
 
+### Power
+
+Right now the light has no battery of its own. It runs off an external USB power bank plugged into the Arduino.
+
+A version with a built-in battery and BMS may come in the future, if I find the time.
+
 ## Firmware
 
 1. Install the [Adafruit NeoPixel library](https://github.com/adafruit/Adafruit_NeoPixel) from the Arduino IDE Library Manager.

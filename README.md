@@ -12,6 +12,8 @@ The current mode is stored in EEPROM. Power-cycling the board advances to the ne
 | 2 | Chase | A red "eye" sweeps along the stick, then a blue one sweeps back, twice over at two speeds |
 | 3 | Demo | Every pattern in the sketch, back to back: white flash-all, fast red/blue switch, police strobe, police wave, converge |
 
+> **Note:** the red and blue police-style strobes are there as a demo of what the strip can do. Using them on a public road is likely illegal where you live, so keep the demo mode for the workshop.
+
 ## Hardware
 
 - [Adafruit NeoPixel Stick, 8 x WS2812 5050 RGB LEDs](https://www.adafruit.com/product/1426)

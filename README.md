@@ -6,11 +6,10 @@ A rear bike light built from an Arduino and an 8-LED NeoPixel stick, in a 3D-pri
 
 The current mode is stored in EEPROM. Power-cycling the board advances to the next one.
 
-| Power cycle | Mode | What it does |
-| --- | --- | --- |
-| 1 | Rear light | Quick red double-flash on all 8 LEDs, like a regular bike tail light |
-| 2 | Chase | A red "eye" sweeps along the stick, then a blue one sweeps back, twice over at two speeds |
-| 3 | Demo | Every pattern in the sketch, back to back: white flash-all, fast red/blue switch, police strobe, police wave, converge |
+| 1. Rear light | 2. Chase | 3. Demo |
+| :---: | :---: | :---: |
+| ![Rear light mode](docs/mode-1-rear-light.gif) | ![Chase mode](docs/mode-2-chase.gif) | ![Demo mode](docs/mode-3-demo.gif) |
+| Quick red double-flash on all 8 LEDs, like a regular bike tail light | A red "eye" sweeps along the stick, then a blue one sweeps back, twice over at two speeds | Every pattern in the sketch, back to back: white flash-all, fast red/blue switch, police strobe, police wave, converge |
 
 > **Note:** the red and blue police-style strobes are there as a demo of what the strip can do. Using them on a public road is likely illegal where you live, so keep the demo mode for the workshop.
 
